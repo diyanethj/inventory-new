@@ -1,0 +1,2 @@
+<?php if($_POST) echo "<pre>" . password_hash($_POST['pw'], PASSWORD_DEFAULT) . "</pre>"; ?>
+<form method="post"><input name="pw" placeholder="your password..." autofocus style="width:300px;"><button>Generate hash</button></form>
